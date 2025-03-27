@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        meta(http-equiv="X-UA-Compatible", content="ie=edge")
+        title #{pageTitle}
+        link(rel="stylesheet", href="/css/main.css")
+        link(rel="stylesheet", href="/css/contact.css")
+        link(rel="stylesheet", href="/images/Pavan1.jpg")
+    body
+        nav
+            a(href="/") Home
+            a(href = "/education") Education
+            a(href="/skills") Skills
+            a(href="/contact") Contact
+    main
+        form(action="https://api.web3forms.com/submit" method="post")
+            table
+                tr
+                    td 
+                        label First Name:
+                    td 
+                        input(type="text", name="firstName" required )
+                tr
+                    td 
+                        label Last Name:
+                    td 
+                        input(type="text", name="lastName" required)
+                tr
+                    td 
+                        label Email:
+                    td 
+                        input(type="email", name="email" autofocus)
+                tr
+                    td 
+                        label Phone:
+                    td 
+                        input(type="tel", name="phone")
+                tr
+                    td 
+                        label Address:
+                    td 
+                        textarea(name="address")
+                tr
+                    td
+                        input(type="hidden" name="access_key" value="500128f8-c38f-4751-89ae-3050797f2016")
+                    td
+                        input(type="submit", value="Submit")
+                        
+
