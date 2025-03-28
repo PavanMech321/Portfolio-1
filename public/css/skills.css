@@ -7,9 +7,6 @@
         object-fit:cover;
         backdrop-filter: blur(10px);
         backdrop-filter: brightness(50%);
-        justify-content: center;
-        align-items: center;
-        justify-items: center;
     }
     nav{
         position :sticky;
