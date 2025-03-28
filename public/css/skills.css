@@ -31,7 +31,7 @@
         color: #555;
     }
     table{
-        width: 65%;
+        width: 70%;
         height: 400px;
         border-radius: 15px;
         border: 2px solid white;
@@ -43,13 +43,14 @@
         color: bisque;
     }
     .intern{
-        width: 65%;
-        height: 400px;
+        width: 70%;
+        height: 500px;
         border-radius: 15px;
         border: 2px solid white;
         box-shadow:10px 10px 20px #999;
         margin-left: 20%;
         margin-top: 20px;
+        color : white ;
     }
     
 }
