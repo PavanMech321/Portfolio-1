@@ -33,7 +33,7 @@
         color: #555;
     }
     .school{
-        background-color: transparent;
+        background-color: white;
         width: 70%;
         border-radius: 15px;
         margin-top: 10%;
@@ -41,6 +41,7 @@
         box-shadow: 0 0 10px #ccc;
         transition: background-color 0.3s ease-in-out;
         cursor: pointer;
+        color : blue;
     }
     
     .school:hover {
@@ -78,7 +79,7 @@
         margin-left: 5%;
     }
     .intermediate{
-       background-color: transparent;
+       background-color: white;
         width: 70%;
         border-radius: 15px;
         margin-top: 10%;
@@ -86,13 +87,14 @@
         box-shadow: 0 0 10px #ccc;
         transition: background-color 0.3s ease-in-out;
         cursor: pointer;
+        color : blue;
     }
     .intermediate:hover {
         background-color: #ddd;
         color: black;
     }
     .graduation{
-        background-color: transparent;
+        background-color: white;
         width: 70%;
         border-radius: 15px;
         margin-top: 10%;
@@ -100,6 +102,7 @@
         box-shadow: 0 0 10px #ccc;
         transition: background-color 0.3s ease-in-out;
         cursor: pointer;
+        color : blue;
     }
     .graduation:hover {
         background-color: #b7d7e5;
