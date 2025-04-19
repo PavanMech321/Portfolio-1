@@ -16,8 +16,8 @@
         backdrop-filter: brightness(50%);
     }
     nav{
-        position :sticky;
-        top : 10px;
+        position: sticky;
+        top: 10px;
         width: 100%;
         height: 50px;
         border-radius: 10px;
@@ -47,7 +47,7 @@
         box-shadow: 0 0 10px #ccc;
         transition: background-color 0.3s ease-in-out;
         cursor: pointer;
-        color : blue;
+        color: blue;
     }
     
     .school:hover {
@@ -93,7 +93,7 @@
         box-shadow: 0 0 10px #ccc;
         transition: background-color 0.3s ease-in-out;
         cursor: pointer;
-        color : blue;
+        color: blue;
     }
     .intermediate:hover {
         background-color: #ddd;
@@ -108,7 +108,7 @@
         box-shadow: 0 0 10px #ccc;
         transition: background-color 0.3s ease-in-out;
         cursor: pointer;
-        color : blue;
+        color: blue;
     }
     .graduation:hover {
         background-color: #b7d7e5;
