@@ -38,7 +38,7 @@
         color: #555;
     }
     table{
-        width: 70%;
+        width: 65%;
         height: 30px;
         border-radius: 15px;
         border: 2px solid white;
@@ -50,7 +50,7 @@
         color: bisque;
     }
     .intern{
-        width: 70%;
+        width: 65%;
         border-radius: 15px;
         border: 2px solid white;
         box-shadow:10px 10px 20px #999;
