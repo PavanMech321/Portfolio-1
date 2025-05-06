@@ -35,7 +35,6 @@
   align-items: center;
   padding: 1rem 0;
   word-spacing: 20px;
-  color : black ;
   overflow: hidden;
   z-index: 1000;
     }
@@ -47,7 +46,7 @@
         text-decoration: none;
         margin-left: 20px;
         font-size:large;
-        color: black;
+        color:black;
         text-decoration: none;
     }
     a:hover{
@@ -59,8 +58,8 @@
         border-radius: 15px;
         border: 2px solid white;
         box-shadow:10px 10px 20px #999;
-        margin-left: 20%;
-        margin-top: 15%;
+        margin-left:20%;
+        margin-top:20%;
     }
     td {
         color: bisque;
@@ -71,7 +70,7 @@
         border: 2px solid white;
         box-shadow:10px 10px 20px #999;
         margin-left: 20%;
-        margin-top: 15%;
+        margin-top:20%;
         color: white ;
     }
     
