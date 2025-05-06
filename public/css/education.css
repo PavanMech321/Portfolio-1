@@ -46,8 +46,8 @@
     a{
         text-decoration: none;
         margin-left: 20px;
-        font-size:larger;
-        color: #fff;
+        font-size:large;
+        color: black;
         text-decoration: none;
     }
     a:hover{
@@ -57,7 +57,7 @@
         background-color: white;
         width: 65%;
         border-radius: 15px;
-        margin-top: 10%;
+        margin-top: 15%;
         margin-left: 20%;
         box-shadow: 0 0 10px #ccc;
         transition: background-color 0.3s ease-in-out;
@@ -103,7 +103,7 @@
        background-color: white;
         width: 65%;
         border-radius: 15px;
-        margin-top: 10%;
+        margin-top: 15%;
         margin-left: 20%;
         box-shadow: 0 0 10px #ccc;
         transition: background-color 0.3s ease-in-out;
@@ -118,7 +118,7 @@
         background-color: white;
         width: 65%;
         border-radius: 15px;
-        margin-top: 10%;
+        margin-top: 15%;
         margin-left: 20%;
         box-shadow: 0 0 10px #ccc;
         transition: background-color 0.3s ease-in-out;
