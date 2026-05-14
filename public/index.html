@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pavan - Full Stack Developer | Portfolio</title>
+    <meta name="description" content="Full-stack developer specializing in modern web technologies with a passion for creating beautiful and functional digital experiences.">
+    <meta name="theme-color" content="#6366f1">
+    
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Custom Styles -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#home">
+                <i class="fas fa-code"></i> Pavan
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-section">
+        <div class="hero-bg">
+            <div class="hero-glow"></div>
+            <div class="hero-glow"></div>
+        </div>
+        <div class="container">
+            <div class="hero-content">
+                <img src="Pawan.jpg" alt="Pavan" class="profile-image">
+                <h1 class="hero-title">Pavan</h1>
+                <p class="hero-subtitle">Full Stack Developer</p>
+                <p class="hero-description">
+                    Crafting beautiful, responsive, and high-performance web applications with modern technologies and clean code.
+                </p>
+                <div class="d-flex gap-3 justify-content-center flex-wrap">
+                    <a href="#projects" class="btn btn-primary btn-hover-glow">
+                        <i class="fas fa-project-diagram"></i> View My Work
+                    </a>
+                    <a href="#contact" class="btn btn-secondary btn-hover-glow">
+                        <i class="fas fa-envelope"></i> Get In Touch
+                    </a>
+                </div>
+                <div class="mt-5">
+                    <p class="scroll-indicator">
+                        <i class="fas fa-chevron-down bounce"></i>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-5">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="row align-items-center">
+                <div class="col-md-6 mb-4 mb-md-0">
+                    <div class="glass-card">
+                        <h3 class="mb-3">Who I Am</h3>
+                        <p class="mb-3">
+                            I'm a passionate full-stack developer with expertise in building scalable web applications using modern technologies. With a strong foundation in both frontend and backend development, I create seamless user experiences combined with robust server-side solutions.
+                        </p>
+                        <p class="mb-3">
+                            My journey in tech has been driven by curiosity and a desire to solve real-world problems through innovative solutions. I believe in writing clean, maintainable code and following best practices in every project.
+                        </p>
+                        <p>
+                            When I'm not coding, you can find me exploring new technologies, contributing to open-source projects, or sharing knowledge with the developer community.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="glass-card">
+                        <h3 class="mb-3">Key Expertise</h3>
+                        <div class="mb-3">
+                            <h5 class="mb-2">Frontend Development</h5>
+                            <p class="text-muted mb-2">React, Vue.js, HTML5, CSS3, JavaScript ES6+, Bootstrap, Tailwind CSS</p>
+                            <div class="progress mb-4" style="height: 8px;">
+                                <div class="progress-bar" role="progressbar" style="width: 90%; background: linear-gradient(90deg, #6366f1, #8b5cf6);" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div>
+                        <div class="mb-3">
+                            <h5 class="mb-2">Backend Development</h5>
+                            <p class="text-muted mb-2">Node.js, Express, Python, Django, MongoDB, PostgreSQL</p>
+                            <div class="progress mb-4" style="height: 8px;">
+                                <div class="progress-bar" role="progressbar" style="width: 85%; background: linear-gradient(90deg, #8b5cf6, #ec4899);" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div>
+                        <div>
+                            <h5 class="mb-2">Tools & Technologies</h5>
+                            <p class="text-muted">Git, Docker, AWS, Firebase, Webpack, REST APIs, GraphQL</p>
+                            <div class="progress" style="height: 8px;">
+                                <div class="progress-bar" role="progressbar" style="width: 80%; background: linear-gradient(90deg, #ec4899, #06b6d4);" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="py-5">
+        <div class="container">
+            <h2 class="section-title">Technical Skills</h2>
+            <div class="row g-4">
+                <!-- React -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="skill-card floating-card">
+                        <div class="skill-icon">
+                            <i class="fab fa-react"></i>
+                        </div>
+                        <h4 class="skill-title">React</h4>
+                        <p class="skill-description">Building interactive user interfaces with hooks, context API, and state management solutions.</p>
+                    </div>
+                </div>
+
+                <!-- Node.js -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="skill-card floating-card">
+                        <div class="skill-icon">
+                            <i class="fab fa-node-js"></i>
+                        </div>
+                        <h4 class="skill-title">Node.js</h4>
+                        <p class="skill-description">Creating efficient backend services and APIs with Express.js and modern JavaScript practices.</p>
+                    </div>
+                </div>
+
+                <!-- MongoDB -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="skill-card floating-card">
+                        <div class="skill-icon">
+                            <i class="fas fa-database"></i>
+                        </div>
+                        <h4 class="skill-title">MongoDB</h4>
+                        <p class="skill-description">Designing and managing scalable NoSQL databases with MongoDB and Mongoose.</p>
+                    </div>
+                </div>
+
+                <!-- JavaScript -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="skill-card floating-card">
+                        <div class="skill-icon">
+                            <i class="fab fa-js"></i>
+                        </div>
+                        <h4 class="skill-title">JavaScript</h4>
+                        <p class="skill-description">Advanced JavaScript programming with ES6+, async/await, and functional programming concepts.</p>
+                    </div>
+                </div>
+
+                <!-- Bootstrap & CSS -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="skill-card floating-card">
+                        <div class="skill-icon">
+                            <i class="fab fa-bootstrap"></i>
+                        </div>
+                        <h4 class="skill-title">Bootstrap & CSS</h4>
+                        <p class="skill-description">Responsive web design with Bootstrap, Tailwind CSS, and advanced CSS3 animations.</p>
+                    </div>
+                </div>
+
+                <!-- Git & DevOps -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="skill-card floating-card">
+                        <div class="skill-icon">
+                            <i class="fab fa-git"></i>
+                        </div>
+                        <h4 class="skill-title">Git & DevOps</h4>
+                        <p class="skill-description">Version control, CI/CD pipelines, Docker containerization, and cloud deployment.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="py-5">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="row g-4">
+                <!-- Project 1 -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="project-card floating-card">
+                        <div class="project-image" style="background: linear-gradient(135deg, #6366f1, #8b5cf6);"></div>
+                        <div class="project-content">
+                            <h4 class="project-title">E-Commerce Platform</h4>
+                            <p class="project-description">
+                                Full-stack e-commerce solution with user authentication, product management, and payment integration.
+                            </p>
+                            <div class="project-tags">
+                                <span class="tag">React</span>
+                                <span class="tag">Node.js</span>
+                                <span class="tag">MongoDB</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="project-card floating-card">
+                        <div class="project-image" style="background: linear-gradient(135deg, #8b5cf6, #ec4899);"></div>
+                        <div class="project-content">
+                            <h4 class="project-title">Task Management App</h4>
+                            <p class="project-description">
+                                Collaborative task management tool with real-time updates, team collaboration, and notifications.
+                            </p>
+                            <div class="project-tags">
+                                <span class="tag">Vue.js</span>
+                                <span class="tag">Firebase</span>
+                                <span class="tag">Tailwind</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="project-card floating-card">
+                        <div class="project-image" style="background: linear-gradient(135deg, #ec4899, #06b6d4);"></div>
+                        <div class="project-content">
+                            <h4 class="project-title">Analytics Dashboard</h4>
+                            <p class="project-description">
+                                Real-time analytics dashboard with data visualization, reports, and performance metrics.
+                            </p>
+                            <div class="project-tags">
+                                <span class="tag">React</span>
+                                <span class="tag">Chart.js</span>
+                                <span class="tag">API</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-5">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="row">
+                <div class="col-lg-6 mx-auto">
+                    <div class="glass-card">
+                        <form>
+                            <div class="form-group">
+                                <input type="text" class="form-control" placeholder="Your Name" required>
+                            </div>
+                            <div class="form-group">
+                                <input type="email" class="form-control" placeholder="Your Email" required>
+                            </div>
+                            <div class="form-group">
+                                <input type="text" class="form-control" placeholder="Subject" required>
+                            </div>
+                            <div class="form-group">
+                                <textarea class="form-control" placeholder="Your Message" required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary btn-hover-glow w-100">
+                                <i class="fas fa-paper-plane"></i> Send Message
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Social Links -->
+            <div class="text-center mt-5">
+                <h4 class="mb-4">Follow Me</h4>
+                <div class="d-flex gap-3 justify-content-center flex-wrap">
+                    <a href="#" class="btn btn-secondary btn-hover-glow rounded-circle" style="width: 50px; height: 50px; padding: 0; display: flex; align-items: center; justify-content: center;">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="#" class="btn btn-secondary btn-hover-glow rounded-circle" style="width: 50px; height: 50px; padding: 0; display: flex; align-items: center; justify-content: center;">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="#" class="btn btn-secondary btn-hover-glow rounded-circle" style="width: 50px; height: 50px; padding: 0; display: flex; align-items: center; justify-content: center;">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a href="#" class="btn btn-secondary btn-hover-glow rounded-circle" style="width: 50px; height: 50px; padding: 0; display: flex; align-items: center; justify-content: center;">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-4" style="border-top: 1px solid rgba(255, 255, 255, 0.1); text-align: center; color: #94a3b8;">
+        <div class="container">
+            <p class="mb-0">&copy; 2026 Pavan. All rights reserved. | Built with <i class="fas fa-heart" style="color: #ec4899;"></i> using Bootstrap & CSS Animations</p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap 5 JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <!-- Custom Script -->
+    <script src="script.js"></script>
+</body>
+</html>
