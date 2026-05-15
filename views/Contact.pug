@@ -4,48 +4,58 @@ html(lang="en")
         meta(charset="UTF-8")
         meta(name="viewport", content="width=device-width, initial-scale=1.0")
         meta(http-equiv="X-UA-Compatible", content="ie=edge")
-        title #{pageTitle}
+        title #{docTitle}
         link(rel="stylesheet", href="/css/main.css")
         link(rel="stylesheet", href="/css/contact.css")
         link(rel="stylesheet", href="/images/Pavan1.jpg")
+        style
+            include /css/notification.css
     body
         nav
             a(href="/") Home
-            a(href = "/education") Education
+            a(href="/education") Education
             a(href="/skills") Skills
             a(href="/contact") Contact
-    main
-        form(action="https://api.web3forms.com/submit" method="post")
-            table
-                tr
-                    td 
-                        label First Name:
-                    td 
-                        input(type="text", name="firstName" required )
-                tr
-                    td 
-                        label Last Name:
-                    td 
-                        input(type="text", name="lastName" required)
-                tr
-                    td 
-                        label Email:
-                    td 
-                        input(type="email", name="email" autofocus)
-                tr
-                    td 
-                        label Phone:
-                    td 
-                        input(type="tel", name="phone")
-                tr
-                    td 
-                        label Message:
-                    td 
-                        textarea(name="message")
-                tr
-                    td
-                        input(type="hidden" name="access_key" value="500128f8-c38f-4751-89ae-3050797f2016")
-                    td
-                        input(type="submit", value="Submit")
-                        
-
+        main
+            if message
+                .notification.success
+                    .notification-content
+                        span.notification-icon ✓
+                        span.notification-text= message
+            if error
+                .notification.error
+                    .notification-content
+                        span.notification-icon ✕
+                        span.notification-text= error
+            
+            form(action="/contact" method="post")
+                table
+                    tr
+                        td 
+                            label First Name:
+                        td 
+                            input(type="text", name="firstName", required)
+                    tr
+                        td 
+                            label Last Name:
+                        td 
+                            input(type="text", name="lastName", required)
+                    tr
+                        td 
+                            label Email:
+                        td 
+                            input(type="email", name="email", required, autofocus)
+                    tr
+                        td 
+                            label Phone:
+                        td 
+                            input(type="tel", name="phone")
+                    tr
+                        td 
+                            label Message:
+                        td 
+                            textarea(name="message", required)
+                    tr
+                        td
+                        td
+                            input(type="submit", value="Submit")
